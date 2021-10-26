@@ -6,20 +6,24 @@
             <div class="timeline">
                 <div class="date">
                     <mat-icon class="mat-18">calendar_today</mat-icon>
-                    <span>16th - 18th October 2020</span>
+                    <span>26th - 28th Nov 2021</span>
                 </div>
                 <span>|</span>
                 <div class="online">
-                    <mat-icon class="mat-18">wifi_tethering</mat-icon>
-                    <span>Virtual</span>
+                    <mat-icon class="mat-18">event_seat</mat-icon>
+                    <span>Hybrid</span>
                 </div>
             </div>
 
             <div class="register">
-                <a class="register-link" href="https://www.youtube.com/c/GDGNairobi" target="_blank"
-                    rel="noopener noreferrer">RECAP</a>
+                <a class="register-link"
+                   href="https://gdg.community.dev/events/details/google-gdg-kisumu-presents-devfest-kenya-2021/"
+                   target="_blank" rel="noopener noreferrer">RSVP</a>
 
-                <a class="register-link" href="https://discord.gg/ctJJDSm" target="_blank"
+              <a class="register-link" href="https://sessionize.com/gdg-devfest-kenya-2021"
+                 target="_blank" rel="noopener noreferrer">Call for Speakers</a>
+
+                <a *ngIf="isActive" class="register-link" href="https://discord.gg/ctJJDSm" target="_blank"
                     rel="noopener noreferrer">LIVE CHAT</a>
             </div>
         </div>

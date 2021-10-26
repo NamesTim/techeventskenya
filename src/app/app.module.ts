@@ -15,6 +15,8 @@ import { ScheduleComponent } from './views/schedule/schedule/schedule.component'
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatMenuModule} from '@angular/material/menu';
+import {AngularFireModule} from '@angular/fire';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import {MatMenuModule} from '@angular/material/menu';
     MatSnackBarModule,
     MatTabsModule,
     MatExpansionModule,
-    MatMenuModule
+    MatMenuModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
   ],
   providers: [],
   bootstrap: [AppComponent]

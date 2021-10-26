@@ -8,6 +8,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class NavbarComponent implements OnInit {
 
+  isActive = false;
+
   constructor(private snackBar: MatSnackBar) { }
 
   ngOnInit(): void {
