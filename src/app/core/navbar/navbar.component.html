@@ -9,13 +9,13 @@
         <ul>
                 <li><a [routerLink]="['']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
                                 class="nav_link">Home</a><span class="isactive"></span></li>
-                <li><a [routerLink]="['schedule']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+                <li><a *ngIf="isActive" [routerLink]="['schedule']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
                                 class="nav_link">Schedule</a><span class="isactive"></span></li>
-                <li><a [routerLink]="['speakers']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
+                <li><a *ngIf="isActive" [routerLink]="['speakers']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active"
                                 class="nav_link">Speakers</a><span class="isactive"></span></li>
                 <li><a href="https://www.youtube.com/c/GDGNairobi" target="_blank" rel="noopener noreferrer"
                                 class="nav_link">Recap</a><span class="isactive"></span></li>
-                <li><a class="register" href="https://discord.gg/ctJJDSm" target="_blank" rel="noopener noreferrer"
+                <li><a *ngIf="isActive" class="register" href="https://discord.gg/ctJJDSm" target="_blank" rel="noopener noreferrer"
                                 class="nav_link">Live Chat</a><span class="isactive"></span></li>
                 <li><a class="register" href="https://github.com/waynegakuo/devfestkenya" target="_blank" rel="noopener noreferrer"
                                 class="nav_link">GitHub Repo</a><span class="isactive"></span></li>
@@ -23,13 +23,13 @@
                 <mat-menu #menu="matMenu">
                         <button mat-menu-item [routerLink]="['']" [routerLinkActiveOptions]="{ exact: true }"
                                 routerLinkActive="active">Home</button>
-                        <button mat-menu-item [routerLink]="['schedule']" [routerLinkActiveOptions]="{ exact: true }"
+                        <button *ngIf="isActive" mat-menu-item [routerLink]="['schedule']" [routerLinkActiveOptions]="{ exact: true }"
                                 routerLinkActive="active">Schedule</button>
-                        <button mat-menu-item [routerLink]="['speakers']" [routerLinkActiveOptions]="{ exact: true }"
+                        <button *ngIf="isActive" mat-menu-item [routerLink]="['speakers']" [routerLinkActiveOptions]="{ exact: true }"
                                 routerLinkActive="active">Speakers</button>
                         <a mat-menu-item class="register" href="https://www.youtube.com/c/GDGNairobi" target="_blank"
                                 rel="noopener noreferrer">Recap</a>
-                        <a mat-menu-item class="register" href="https://discord.gg/ctJJDSm" target="_blank"
+                        <a *ngIf="isActive" mat-menu-item class="register" href="https://discord.gg/ctJJDSm" target="_blank"
                                 rel="noopener noreferrer">Live Chat</a>
                         <a mat-menu-item class="register" href="https://github.com/waynegakuo/devfestkenya" target="_blank"
                                 rel="noopener noreferrer">GitHub Repo</a>

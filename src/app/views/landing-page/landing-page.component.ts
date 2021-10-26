@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+  isActive = false;
+
   constructor() { }
 
   ngOnInit(): void {
