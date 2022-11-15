@@ -1,31 +1,46 @@
-# GDG DevFest Kenya 2020
+# TECH EVENTS KENYA
 
-<!-- ![GDG DevFest Kenya 2020](src/assets/images/devfest_kenya.png) -->
+I Intend to accomplish in Next/React, below is a pseudo design.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+# Scope def: the features that the end product will ressemble, Attributes to measure progress/perfomance.
+-  M Must have:
+-  S Should have:
+-  C Could have: mini-budget, Q&A, live/playback, mealplan, general chat(plus private one for organizers)
+-  W Won't have:
 
-## Development server
+# Sample cases and background,
+- Python KE event has two sites 1.https://www.pyconke.org/ 2.https://www.pycon.or.ke/, uses [sessionize] https://sessionize.com for the breakouts. No subchapters or anything e.g django, DS/ML, micropython, etc. 
+- events ride a lot on twitter to share trivial event info like photos and stuff
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Tickets and RSVP
+ I'm yet to experience being thrown out for not having a ticket/RSVP'd but a ticket is, in a tech event, to serve this purposes:
+  i. serving snacks
+  ii. giving out merch, mostly tee's *note: merch/swaag is not always free, some are paid*
 
-## Code scaffolding
+# DataStructure pseudocode
+- EVENT{
+  TYPES{
+   HACKATHONS[],
+   FESTS[], 
+   CONF[],
+  } 
+  VENUE{location, }
+  ATTENDEES{profile, }
+  SPONSORS[]
+  ORGANIZERS[]
+  AGGREGATOR_PLATFORMS {eventbrite, meetup, gdgdev}
+  THEME/TOPIC
+}
+- TIME{
+DURATION
+BREAKOUTS/MINI-EVENTS 
+OTHER PLANNED ACTIVITY kahoot icebreakers
+SPEAKERS/FACILITATORS
+TICKETS rarely used, eventbrite,
+PROVIDERS
+VALIDATORS/VOLUNTEERS
+USES
+}
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-Built by [Wayne Gakuo](https://waynegakuo.netlify.app/) for [GDG DevFest Kenya](https://twitter.com/devfestkenya) c/o of [GDG Nairobi](https://twitter.com/devfestnairobi)
+Built by [Wayne Gakuo](https://waynegakuo.netlify.app/) for [GDG DevFest Kenya](https://twitter.com/devfestkenya).
+Fork and mod by Tim. 
