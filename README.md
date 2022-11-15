@@ -1,6 +1,6 @@
 # GDG DevFest Kenya 2020
 
-![GDG DevFest Kenya 2020](src/assets/images/devfest_kenya.png)
+<!-- ![GDG DevFest Kenya 2020](src/assets/images/devfest_kenya.png) -->
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
