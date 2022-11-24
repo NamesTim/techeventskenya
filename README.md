@@ -64,8 +64,6 @@ architecture SOA EOA
 design DDD
 I AM NOT IN THE BUSINESS OF COMING UP WITH MY OWN ARCHITECTURAL PATTERN HA! BUT GENERALLY THIS IS MY IDEA OF THE DATAFLOW.
 
-***to be continued, have to rush to class ***
-
 **NB** Considering to use a domain specific pattern for the time and datetime data structures
 '''
 info.>action every piece of info on the platform should lead to an action(achieved through user input event eg click, touch)
